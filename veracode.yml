@@ -1,6 +1,6 @@
 veracode_static_scan:
   push:
-    trigger: false
+    trigger: true
     branches_to_run:
       - '*'
     branches_to_exclude:
@@ -13,12 +13,12 @@ veracode_static_scan:
     target_branch:
       - default_branch
   analysis_on_platform: false
-  break_build_policy_findings: false
+  break_build_policy_findings: true
   break_build_invalid_policy: false
   break_build_on_error: true
   error_message: Veracode static scan faced a problem.
   policy: Veracode Recommended Medium + SCA
-  create_code_scanning_alert: false
+  create_code_scanning_alert: true
   create_issue: false
   issues:
     trigger: false
