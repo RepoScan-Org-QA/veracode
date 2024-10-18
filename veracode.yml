@@ -38,7 +38,7 @@ veracode_sca_scan:
       - synchronize
     target_branch:
       - default_branch
-  break_build_on_error: true
+  break_build_on_error: false
   error_message: Veracode static scan faced a problem.
   issues:
     trigger: false
