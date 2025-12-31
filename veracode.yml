@@ -26,9 +26,9 @@ veracode_static_scan:
   analysis_branch: ENTER BRANCH NAME HERE
 veracode_sca_scan:
   push:
-    trigger: false
+    trigger: true
     branches_to_run:
-      - '*'
+      - Probot-github-test-workflow-patch-1
     branches_to_exclude:
       - branch-1
   pull_request:
