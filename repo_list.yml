@@ -1,5 +1,0 @@
-include_repos:
-  - example-javascript
-  - vulnado
-  - verademo-dotnetcore
-exclude_repos: !<tag:yaml.org,2002:js/undefined> ''
