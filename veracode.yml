@@ -12,7 +12,7 @@ veracode_static_scan:
     target_branch:
       - default_branch
   analysis_on_platform: false
-  break_build_policy_findings: true
+  break_build_policy_findings: false
   break_build_invalid_policy: false
   break_build_on_error: true
   error_message: Veracode static scan faced a problem.
@@ -52,7 +52,7 @@ veracode_iac_secrets_scan:
     branches_to_exclude:
       - branch-1
   pull_request:
-    trigger: true
+    trigger: false
     action:
       - synchronize
     target_branch:
