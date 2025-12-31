@@ -1,4 +1,0 @@
-include_repos:
-    - '*'
-exclude_repos:
-    - 'veracode'
