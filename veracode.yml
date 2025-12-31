@@ -4,7 +4,7 @@ veracode_static_scan:
     branches_to_run:
       - js-dynamic
     branches_to_exclude:
-      - default_branch
+      - js-dynamic
   pull_request:
     trigger: false
     action:
@@ -49,7 +49,7 @@ veracode_iac_secrets_scan:
     branches_to_run:
       - js-dynamic
     branches_to_exclude:
-      - default_branch
+      - js-dynamic
   pull_request:
     trigger: false
     action:
