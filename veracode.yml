@@ -2,7 +2,7 @@ veracode_static_scan:
   push:
     trigger: true
     branches_to_run:
-      - Probot-github-test-workflow-patch-1
+      - js-dynamic
     branches_to_exclude:
       - branch-1
   pull_request:
@@ -47,7 +47,7 @@ veracode_iac_secrets_scan:
   push:
     trigger: true
     branches_to_run:
-      - Probot-github-test-workflow-patch-1
+      - js-dynamic
     branches_to_exclude:
       - branch-1
   pull_request:
