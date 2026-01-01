@@ -16,7 +16,7 @@ veracode_static_scan:
   break_build_invalid_policy: true
   break_build_on_error: true
   error_message: Veracode static scan faced a problem.
-  policy: Veracode Recommended Medium +CA
+  policy: PolicyText123_
   create_code_scanning_alert: false
   create_issue: false
   issues:
