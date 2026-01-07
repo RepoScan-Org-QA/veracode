@@ -146,6 +146,7 @@ jobs:
           recursive: true
           allow-dirty: true
           breakBuildOnPolicyFindings: ${{ github.event.client_payload.user_config.break_build_policy_findings }}
+          debug: ${{ github.event.client_payload.user_config.debug }}
 
   cleanup:
     needs: veracode-sca-scan
