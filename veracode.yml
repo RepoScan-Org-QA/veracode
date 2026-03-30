@@ -25,11 +25,11 @@ veracode_static_scan:
       - Veracode Static Scan
 veracode_sca_scan:
   push:
-    trigger: true
+    trigger: false
     branches_to_run:
-      - master
+      - '*'
     branches_to_exclude:
-      - js-dynamic
+      - branch-1
   pull_request:
     trigger: false
     action:
